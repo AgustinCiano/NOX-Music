@@ -1,22 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-    
-}
-
-
-
-/* MOBILE *//* MOBILE *//* MOBILE *//* MOBILE *//* MOBILE *//* MOBILE *//* MOBILE */
-/* MOBILE *//* MOBILE *//* MOBILE *//* MOBILE *//* MOBILE *//* MOBILE *//* MOBILE */
-
-
-/* @media only screen and (min-width: 375px){ */
-
-
-
 body{
+    margin: auto;
+    width: 1080px;
+    /* background-color: black; */
+    
     font-family: 'Roboto', sans-serif;
-    background-color: aqua;
 }
 
 a{
@@ -85,11 +72,10 @@ nav a:hover{
 li{
     list-style: none;
 }
-
 nav ol{
     margin-top: 1%;
     background-color: rgb(142, 1, 255);
-    font-size: medium;
+    font-size: x-large;
     font-weight: bold;
     color: white;
     border-radius: 10px;
@@ -101,7 +87,7 @@ nav ol{
 }
 
 .logoHeader{
-    max-width: 60px;
+    max-width: 80px;
     border-radius: 100%;
     margin-top: 10%;
 }
@@ -111,16 +97,16 @@ nav ol{
 .solapaEspec{
     background-color: rgb(142, 1, 255);
     margin-left: 18%;
-    width: 100px;
-    height: 10px;
+    width: 200px;
+    height: 20px;
     
 }
 
 .solapaArtistas{
     background-color: rgb(142, 1, 255);
-    margin-left: 40%;
-    width: 100px;
-    height: 10px;
+    margin-left: 39%;
+    width: 150px;
+    height: 20px;
     
 }
 
@@ -131,22 +117,23 @@ nav ol{
 .espectaculosSection{
     background-color: rgb(142, 1, 255);
     border-radius: 10px;
-    width: 600px;
+    width: 900px;
+    height: 1080px;
     margin: auto;
+    
+
 }
 
 h2{
     margin: 2%;
-    font-size: large;
 }
 
 h3{
     margin: 2%;
-    font-size: small;
 }
 
 .espectaculo{
-    width: 200px;
+    max-width: 300px;
     margin: 3%;
 }
 
@@ -169,8 +156,8 @@ h3{
 
 
 .espectaculosSection ol li img{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     
 }
 
@@ -185,7 +172,8 @@ h3{
 .artistasSection{
     background-color: rgb(142, 1, 255);
     border-radius: 10px;
-    
+    width: 900px;
+    height: 1080px;
     margin: auto;    
 
 }
@@ -200,7 +188,6 @@ h3{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
 }
 
 .artistasSection ol li a{
@@ -214,7 +201,7 @@ h3{
 
 .cardArtista{
     border: 5px solid white;
-    width: 200px;
+    width: 300px;
     border-radius: 20px;
     margin: 5%;
 }
@@ -224,4 +211,3 @@ h3{
     border: 5px solid rgb(178, 99, 239);
     transition: 500ms;
 }
-
