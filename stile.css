@@ -10,7 +10,7 @@
 /* MOBILE *//* MOBILE *//* MOBILE *//* MOBILE *//* MOBILE *//* MOBILE *//* MOBILE */
 
 
-@media only screen and (min-width: 375px){
+/* @media only screen and (min-width: 375px){ */
 
 
 
@@ -224,7 +224,7 @@ h3{
     border: 5px solid rgb(178, 99, 239);
     transition: 500ms;
 }
-}
+
 
 
 
